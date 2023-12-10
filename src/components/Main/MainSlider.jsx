@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import '../../../css/mainSlider.css';
+import '../../../css/main/mainSlider.css';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function MainSlider() {

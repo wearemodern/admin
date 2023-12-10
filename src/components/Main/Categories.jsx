@@ -39,7 +39,7 @@ export default function Categories() {
                 style={{ verticalAlign: "middle" }}
               >
            <div>
-            <img src={category.img} alt="" />
+            <img src={category.img} alt=""className="categoryImg" />
             <span>{category.text}</span>
            </div>
               </SwiperSlide>
