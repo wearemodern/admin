@@ -1,0 +1,18 @@
+.specialProducts-container{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    background: -webkit-linear-gradient(#d5d4d4  0%, #575758 100%);
+}
+.product-card{
+background: white;
+width: 300px;
+height: 300px;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.product-image{
+    
+}
