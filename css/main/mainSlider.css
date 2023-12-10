@@ -37,18 +37,13 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    /* object-fit:contain !important; */
   }
-
-  
        @media screen and (max-width:600px){
         .swiper-button-prev , .swiper-button-next{
           display: none;
             }
-      
             .swiper-button-prev.swiper-button-disabled , .swiper-button-next.swiper-button-disabled{
               display: none;
-        
              }
        }
        .swiper-button-prev , .swiper-button-next{
