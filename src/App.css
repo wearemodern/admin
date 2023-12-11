@@ -16,6 +16,9 @@ body, html {
 .bg-orange{
   background-color: #ea6106;
 }
+.text-orange{
+color: #ea6106;
+}
 .orange-btn{
   background-color: #ea6106;
   outline:inherit;

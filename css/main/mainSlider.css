@@ -1,59 +1,62 @@
 #app {
-    height: 100%;
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySwiper {
+  width: 100%;
+  height: 500px;
+}
+.swiper-image {
+  width: 100% !important;
+  min-height: 500px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 600px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
   }
-  html,
-  body {
-    position: relative;
-    height: 100%;
+  .swiper-button-prev.swiper-button-disabled,
+  .swiper-button-next.swiper-button-disabled {
+    display: none;
   }
-  
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .mySwiper{
-    width: 100%;
-    height: 500px;
-  }
-  .swiper-image{
-    width: 100% !important;
-    min-height: 500px;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-  }
-       @media screen and (max-width:600px){
-        .swiper-button-prev , .swiper-button-next{
-          display: none;
-            }
-            .swiper-button-prev.swiper-button-disabled , .swiper-button-next.swiper-button-disabled{
-              display: none;
-             }
-       }
-       .swiper-button-prev , .swiper-button-next{
-        color: #fff;
-       }
-       .swiper-button-prev:after, .swiper-button-next:after{
-        font-size: 20px !important;
-       }
-       .swiper-pagination-bullet-active{
-        color: #fff !important;
-        background-color: white !important;
-       }
-     
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px !important;
+}
+.swiper-pagination-bullet-active {
+  color: #fff !important;
+  background-color: white !important;
+}
