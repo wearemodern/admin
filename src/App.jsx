@@ -1,7 +1,32 @@
-import React from 'react'
-import MainPage from './components/Main/MainPage'
-export default function main() {
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import MainPage from "./components/Main/MainPage";
+export default function App() {
+  const ScrollToTop = () => {
+    const location = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [location]);
+    return null;
+  };
+  const theme = createTheme({
+    typography: {
+      fontFamily: "",
+    },
+  });
   return (
-    <div><MainPage/></div>
-  )
+    <div>
+      <ThemeProvider theme={theme}>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route index element={<MainPage/>} />
+           
+          </Routes>
+        </BrowserRouter>
+      </ThemeProvider>
+    </div>
+  );
 }
+
