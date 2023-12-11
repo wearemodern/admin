@@ -1,0 +1,13 @@
+.notSelected-icon{
+    color: #673b06;
+    border-radius:50%;
+    border:1px solid #673b06;
+    padding: 10px;
+}
+.selected-icon{
+    color: #ea6106;
+    border-radius:50%;
+    border:1px solid #d08e62;
+    padding: 10px;
+    transform: scale(1.8);
+}
