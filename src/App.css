@@ -13,5 +13,15 @@ body, html {
   font-family: iransans;
   direction: rtl !important;
 }
-
-
+.bg-orange{
+  background-color: #ea6106;
+}
+.orange-btn{
+  background-color: #ea6106;
+  outline:inherit;
+  width:120px;
+  height:40px;
+  border-radius:20px;
+  border:1px solid #ea6106;
+  color: antiquewhite;
+}

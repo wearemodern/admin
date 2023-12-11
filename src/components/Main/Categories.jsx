@@ -45,7 +45,7 @@ export default function Categories() {
               >
            <div className="d-flex flex-column justify-content-center">
            <div className={`${category.hasNewProduct && !category.hasSeen?'image-container':category.hasNewProduct && category.hasSeen?'viewed-image-container':''}`}>
-           <img src={category.img} alt=""className={`${category.hasNewProduct?'active-category':''} category-image`}/>
+           <img src={category.img} alt="" className={`${category.hasNewProduct?'active-category':''} category-image`}/>
            </div>
             <span className="category-text mt-2">{category.text}</span>
            </div>
