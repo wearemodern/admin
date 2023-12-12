@@ -4,7 +4,7 @@ import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
 import WatchLaterOutlinedIcon from "@mui/icons-material/WatchLaterOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
-import '../../../css/main/benefit.css'
+import "../../../css/main/benefit.css";
 export default function Benefits() {
   const benefitItems = [
     {
@@ -34,25 +34,39 @@ export default function Benefits() {
   ];
   const [selected, setSelected] = useState(benefitItems[0]);
   return (
-    <div className="d-flex justify-content-between w-100 h-100 p-5">
-      <div>
+    <div className="d-flex flex-column flex-md-row justify-content-between w-100 h-100 benefits-page">
+      <div className="col-md-6">
         {benefitItems.map((item, index) => (
-          <div className="d-flex align-items-center my-5" onMouseEnter={() => setSelected(item)} key={index}>
-            <div className={`${item.title==selected.title ? 'selected-icon':'notSelected-icon' } ml-2`}>{item.icon}</div>
-         <div className="d-flex flex-column">
-         <b>{item.title}</b>
-      {item.title==selected .title &&<span className="text-secondary mt-1   ">
-            {item.text}
-         </span>}
-         </div>
+          <div
+            className="d-flex align-items-center my-5"
+            onMouseEnter={() => setSelected(item)}
+            key={index}
+          >
+            <div
+              className={`${
+                item.title == selected.title
+                  ? "selected-icon ml-4"
+                  : "notSelected-icon"
+              } ml-2`}
+            >
+              {item.icon}
+            </div>
+            <div className="d-flex flex-column">
+              <b
+                className={`${
+                  item.title == selected.title ? "selected-title" : ""
+                }`}
+              >
+                {item.title}
+              </b>
+              {item.title == selected.title && (
+                <span className="text-secondary mt-1">{item.text}</span>
+              )}
+            </div>
           </div>
         ))}
       </div>
-      <img
-        src={selected.img}
-        alt="pic"
-        style={{ width: "500px", height: "500px" }}
-      />
+      <img src={selected.img} alt="pic" className="benefit-pic col-md-6" />
     </div>
   );
 }
