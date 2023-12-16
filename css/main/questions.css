@@ -1,0 +1,15 @@
+.questions-box {
+  background-image: url("./question.jpg");
+  height: 50vh;
+  width: 100%;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

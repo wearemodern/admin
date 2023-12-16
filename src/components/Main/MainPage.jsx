@@ -3,6 +3,7 @@ import MainSlider from "./MainSlider";
 import Categories from "./Categories";
 import SpecialProducts from "./specialProducts/SpecialProducts";
 import Benefits from "./Benefits";
+import QuestionsBox from "./QuestionsBox";
 export default function MainPage() {
   return (
     <div>
@@ -10,6 +11,8 @@ export default function MainPage() {
       <Categories />
       <SpecialProducts />
       <Benefits />
+      <QuestionsBox />
+
     </div>
   );
 }
