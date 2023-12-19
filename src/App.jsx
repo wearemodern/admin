@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import MainPage from "./components/Main/MainPage";
+import Header from './components/Header'
 export default function App() {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -20,6 +21,7 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <BrowserRouter>
           <ScrollToTop />
+          <Header/>
           <Routes>
             <Route index element={<MainPage/>} />
            

@@ -1,0 +1,32 @@
+.header{
+    background:#090981;
+}
+.search-box{
+border-radius: 10px;
+height: 40px;
+border: none;
+outline:none ;
+background: white;
+}
+
+.css-13eajue-MuiButtonBase-root-MuiMenuItem-root:hover{
+background-color: #f6e5d5!important;
+color: #ea6106 !important;
+}
+.css-13eajue-MuiButtonBase-root-MuiMenuItem-root{
+    font-size: 14px !important;
+}
+.menu-item:first-child {
+    background-color: transparent !important;
+  }
+.menu-item:first-child:hover{
+    background-color: #f6e5d5!important;    
+  }
+  .cart-icon {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .person-icon{
+font-weight: 500;
+font-size: 25px !important;
+  }
