@@ -70,7 +70,7 @@ export default function Categories() {
     },
   ];
   return (
-    <div className="d-lg-flex  align-items-center w-100 p-0 bg-white py-5">
+    <div className="d-lg-flex  align-items-center w-75 justify-content-center mx-auto p-0 bg-white py-5">
       <div className="d-flex w-100 justify-content-center   flex-wrap align-items-center">
         {categories.map((category, index) => {
           return (

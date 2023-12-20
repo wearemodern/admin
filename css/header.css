@@ -36,20 +36,21 @@
   color: #ff6a00;
   border: none !important;
   outline: none !important;
+  background-color: #fff;
 }
 .login-btn:hover {
   background-color: #ff6a00;
   color: white;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.sub-header{
+.sub-header {
   background-color: #131921;
 }
-.link-style{
+.link-style {
   color: white !important;
   text-decoration: none !important;
 }
-.link-style:hover{
+.link-style:hover {
   color: #ff6a00 !important;
   transition: color 0.2s ease-in-out;
 }
