@@ -14,18 +14,18 @@ body, html {
   direction: rtl !important;
 }
 .bg-orange{
-  background-color: #ea6106;
+  background-color: #ff6a00;
 }
 .text-orange{
-color: #ea6106;
+color: #ff6a00;
 }
 .orange-btn{
-  background-color: #ea6106;
+  background-color: #ff6a00;
   outline:inherit;
   width:120px;
   height:40px;
   border-radius:20px;
-  border:1px solid #ea6106;
+  border:1px solid #ff6a00;
   color: antiquewhite;
 }
 .pointer{
