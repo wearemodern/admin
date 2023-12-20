@@ -1,32 +1,55 @@
-.header{
-    background:#090981;
+.header {
+  background: #232f3e;
 }
-.search-box{
-border-radius: 10px;
-height: 40px;
-border: none;
-outline:none ;
-background: white;
+.search-box {
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: white;
 }
 
-.css-13eajue-MuiButtonBase-root-MuiMenuItem-root:hover{
-background-color: #f6e5d5!important;
-color: #ea6106 !important;
+.css-13eajue-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: #f6e5d5 !important;
+  color: #ff6a00 !important;
 }
-.css-13eajue-MuiButtonBase-root-MuiMenuItem-root{
-    font-size: 14px !important;
+.css-13eajue-MuiButtonBase-root-MuiMenuItem-root {
+  font-size: 14px !important;
 }
 .menu-item:first-child {
-    background-color: transparent !important;
-  }
-.menu-item:first-child:hover{
-    background-color: #f6e5d5!important;    
-  }
-  .cart-icon {
-    font-size: 22px;
-    font-weight: bold;
-  }
-  .person-icon{
-font-weight: 500;
-font-size: 25px !important;
-  }
+  background-color: transparent !important;
+}
+.menu-item:first-child:hover {
+  background-color: #f6e5d5 !important;
+}
+.cart-icon {
+  font-size: 22px;
+  font-weight: bold;
+}
+.person-icon {
+  font-weight: 500;
+  font-size: 25px !important;
+}
+.login-btn {
+  border-radius: 8px;
+  height: 40px;
+  color: #ff6a00;
+  border: none !important;
+  outline: none !important;
+}
+.login-btn:hover {
+  background-color: #ff6a00;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.sub-header{
+  background-color: #131921;
+}
+.link-style{
+  color: white !important;
+  text-decoration: none !important;
+}
+.link-style:hover{
+  color: #ff6a00 !important;
+  transition: color 0.2s ease-in-out;
+}
