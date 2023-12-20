@@ -29,8 +29,8 @@
 }
 .image-container {
   background: -webkit-linear-gradient(left top, #ff6a00 0%, #031b70 100%);
-  width: 100px;
-  height: 100px;
+  width: 100px !important;
+  height: 100px !important;
   border-radius: 1000px;
   padding: 3px;
   display: flex;
@@ -48,7 +48,7 @@
   align-items: center;
 }
 .active-category {
-  width: 99%;
-  height: 99%;
+  width: 100%;
+  height: 100%;
   border-radius: 1000px;
 }
