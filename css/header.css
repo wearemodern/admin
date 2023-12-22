@@ -54,3 +54,18 @@
   color: #ff6a00 !important;
   transition: color 0.2s ease-in-out;
 }
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+}
+.live-notif {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  animation: blink 1.5s linear infinite;
+}

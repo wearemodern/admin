@@ -97,11 +97,12 @@ export default function SubHeader() {
           );
         })}
       </div>
-      <div className="d-flex">
+      <div className="d-flex align-items-center">
         {subHeaderItems2.map((item, index) => {
           return (
-            <Link to={item.link} key={index} className="link-style p-2">
+            <Link to={item.link} key={index} className="link-style p-2 d-flex">
               {item.text}
+              {item.text == "لایو" && <div className="live-notif mr-1"></div>}
             </Link>
           );
         })}
