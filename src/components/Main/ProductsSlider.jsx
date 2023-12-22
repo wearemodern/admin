@@ -22,10 +22,10 @@ export default function ({ products }) {
         <div className="h-100 d-flex align-items-center  justify-content-center">
           <span
             className="text-white px-3 text-center"
-            style={{ fontSize: "40px", fontWeight: "bold" }}
+            style={{ fontSize: "30px", fontWeight: "bold" }}
           >
-            amazing offer
-            <RedeemIcon style={{ fontSize: "40px", fontWeight: "bold" }} />
+            پیشنهاد‌های شگفت‌انگیز
+            <RedeemIcon style={{ fontSize: "30px", fontWeight: "bold" }} />
           </span>
         </div>
       )}
@@ -35,7 +35,7 @@ export default function ({ products }) {
             className="text-white mx-auto text-center"
             style={{ fontSize: "40px", fontWeight: "bold" }}
           >
-            amazing offer
+            پیشنهاد‌های شگفت‌انگیز{" "}
             <RedeemIcon style={{ fontSize: "40px", fontWeight: "bold" }} />
           </span>
         </div>
