@@ -3,8 +3,10 @@ import "../../../css/header.css";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
+import CategoriesMenu from "./CategoriesMenu";
 export default function SubHeader() {
   const subHeaderItems1 = [
+    { text: "دسته‌بندی‌ها", link: "/" },
     { text: "فروشگاه", link: "/" },
     { text: "دی‌گرام", link: "/" },
     { text: "درباره ما", link: "/" },
@@ -34,14 +36,16 @@ export default function SubHeader() {
         {subHeaderItems1.map((item, index) => {
           return (
             <div className="text-white p-2 pointer" key={index}>
-              {item.text != "راهنما" && (
+              {item.text != "راهنما" && item.text !='دسته‌بندی‌ها' && (
                 <Link className="link-style" to={item.link}>
                   {item.text}
                 </Link>
               )}
+              {item.text == "دسته‌بندی‌ها" && <CategoriesMenu/>
+              }
               {item.text == "راهنما" && (
                 <>
-                  <span onClick={handleClick} className="link-style">
+                  <span onMouseEnter={handleClick} className="link-style">
                     راهنما
                   </span>
                   <Menu
@@ -50,6 +54,7 @@ export default function SubHeader() {
                     open={open}
                     onClose={handleClose}
                     onClick={handleClose}
+                    MenuListProps={{ onMouseLeave: handleClose }}
                     PaperProps={{
                       elevation: 0,
                       sx: {
@@ -102,7 +107,9 @@ export default function SubHeader() {
           return (
             <Link to={item.link} key={index} className="link-style p-2 d-flex">
               {item.text}
-              {item.text == "لایو" && <div className="live-notif mr-1"></div>}
+              {item.text == "لایو" && (
+                <div className="live-notif mr-1 mt-1"></div>
+              )}
             </Link>
           );
         })}
