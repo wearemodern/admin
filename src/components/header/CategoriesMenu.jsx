@@ -1,12 +1,10 @@
-import * as React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import "../../../css/header.css";
 import SubCategoryMenu from "./SubCategoryMenu";
 import CategoriesList from "./CategoriesList";
-export default function BasicMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+export default function CategoriesMenu() {
+  const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -15,19 +13,14 @@ export default function BasicMenu() {
     setAnchorEl(null);
   };
   const categories = CategoriesList();
-  const [selectedCategory, setSelectedCategory]=useState('')
-  const handleSelectedCategory=(item)=>{
-    setSelectedCategory('');
-setTimeout(() => {
-  setSelectedCategory(item);
-  
-}, 200);  }
-console.log(selectedCategory)
-
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const handleSelectedCategory = (item) => {
+    if (item != selectedCategory) {
+      setSelectedCategory(item);
+    }
+  };
   return (
-    
     <div onClick={handleClick}>
-
       <span onMouseEnter={handleClick}>دسته‌بندی‌ها</span>
       <Menu
         id="basic-menu"
@@ -66,8 +59,19 @@ console.log(selectedCategory)
       >
         {categories.map((category, index) => {
           return (
-            <MenuItem onClick={handleClose} className="menu-item " key={index} onMouseEnter={()=>handleSelectedCategory(category)}>
-              <SubCategoryMenu category={category} selectedCategory={selectedCategory} />
+            <MenuItem
+              onClick={handleClose}
+              className="menu-item"
+              key={index}
+              onMouseEnter={() => handleSelectedCategory(category)}
+            >
+              <span onMouseEnter={handleClick}>{category.title}</span>
+
+              <SubCategoryMenu // Corrected component name
+                category={category}
+                selectedCategory={selectedCategory}
+                setSelectedCategory={handleSelectedCategory}
+              />
             </MenuItem>
           );
         })}
