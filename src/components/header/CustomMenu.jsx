@@ -23,13 +23,14 @@ export default function CustomMenu() {
   ];
   return (
     <div>
-      <PersonIcon className="text-white person-icon" onClick={handleClick} />
+      <PersonIcon className="text-white person-icon" onMouseEnter={handleClick} />
       <Menu
         anchorEl={anchorEl}
         id="account-menu"
         open={open}
         onClose={handleClose}
         onClick={handleClose}
+        MenuListProps={{onMouseLeave:handleClose}}
         PaperProps={{
           elevation: 0,
           sx: {

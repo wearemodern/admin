@@ -15,11 +15,11 @@ import {
 } from "react-device-detect";
 export default function ({ products }) {
   const [swiperRef, setSwiperRef] = useState(null);
-  const view = isMobileOnly ? 1 : isTablet || isIPad13 ? 2 : 3;
+  const view = isMobileOnly ? 1 : isTablet || isIPad13 ? 2 : 4;
   return (
     <div className="d-lg-flex mySwiper align-items-center w-100 h-100 py-3">
       {isDesktop && (
-        <div className="h-100 d-flex align-items-center  justify-content-center">
+        <div className="h-100 d-flex align-items-center  justify-content-center w-20">
           <span
             className="text-white px-3 text-center"
             style={{ fontSize: "30px", fontWeight: "bold" }}
@@ -54,7 +54,8 @@ export default function ({ products }) {
             return (
               <SwiperSlide
                 key={index}
-                style={{ verticalAlign: "middle", height: "300px" }}
+                style={{ verticalAlign: "middle"}}
+                className="product-card"
               >
                 <ProductComponent product={product} />
               </SwiperSlide>
