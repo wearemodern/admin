@@ -14,6 +14,14 @@ import LaptopOutlinedIcon from '@mui/icons-material/LaptopOutlined';
 import MouseIcon from '@mui/icons-material/Mouse';
 import TvIcon from '@mui/icons-material/Tv';
 import WatchIcon from '@mui/icons-material/Watch';
+import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
+import VolumeUpIcon from '@mui/icons-material/VolumeUp';
+import SdIcon from '@mui/icons-material/Sd';
+import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import WifiIcon from '@mui/icons-material/Wifi';
+import LocalPrintshopRoundedIcon from '@mui/icons-material/LocalPrintshopRounded';
+import Battery6BarRoundedIcon from '@mui/icons-material/Battery6BarRounded';
 export default function CategoriesList() {
   const categories = [
     {
@@ -22,7 +30,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "صوتی و تصویری",
-      icon:<HeadphonesOutlinedIcon />,
+      icon:<KeyboardVoiceIcon />,
 
           layer1_Link: "/",
           layer2: [
@@ -256,6 +264,8 @@ export default function CategoriesList() {
         },
         {
           text: "هدفون، هدست و میکروفون",
+          icon:<HeadphonesOutlinedIcon />,
+
           layer1_Link: "/",
           layer2: [
             { text: "گیمینگ", link: "/" },
@@ -270,6 +280,7 @@ export default function CategoriesList() {
         {
           text: "اسپیکر",
           layer1_Link: "/",
+          icon:< VolumeUpIcon />,
           layer2: [
             { text: "خانگی", link: "/" },
             { text: "قابل حمل", link: "/" },
@@ -278,6 +289,7 @@ export default function CategoriesList() {
         {
           text: "هارد و فلش",
           layer1_Link: "/",
+          icon:< SdIcon />,
           layer2: [
             { text: "اینترنال", link: "/" },
             { text: "اکسترنال", link: "/" },
@@ -288,6 +300,7 @@ export default function CategoriesList() {
         {
           text: "دوربین عکاسی و لوازم جانبی",
           layer1_Link: "/",
+          icon:<PhotoCameraIcon/>,
           layer2: [
             { text: "عکاسی", link: "/" },
             { text: "فیلم‌برداری", link: "/" },
@@ -303,6 +316,7 @@ export default function CategoriesList() {
         {
           text: "گیمینگ و لوازم جانبی",
           layer1_Link: "/",
+          icon:< SportsEsportsIcon/>,
           layer2: [
             { text: "دسته بازی گوشی", link: "/" },
             { text: "دسته بازی کامپیوتر", link: "/" },
@@ -317,6 +331,7 @@ export default function CategoriesList() {
         {
           text: "دوربین‌های شبکه و تجهیزات",
           layer1_Link: "/",
+          icon:<WifiIcon/>,
           layer2: [
             { text: "دوربین وایرلس", link: "/" },
             { text: "دزدگیر وایرلس", link: "/" },
@@ -324,6 +339,7 @@ export default function CategoriesList() {
         },
         {
           text: "مودم، پرینتر و تلفن",
+          icon:< LocalPrintshopRoundedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "HP", link: "/" },
@@ -338,6 +354,7 @@ export default function CategoriesList() {
         {
           text: "اکسسوری دیجیتال",
           layer1_Link: "/",
+          icon:< Battery6BarRoundedIcon />,
           layer2: [
             { text: "مترجم همراه", link: "/" },
             { text: "باتری", link: "/" },
