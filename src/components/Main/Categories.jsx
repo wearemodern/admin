@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../../../css/main/categories.css";
 export default function Categories() {
   const categories = [

@@ -52,3 +52,8 @@
   height: 100%;
   border-radius: 1000px;
 }
+
+.selected-category{
+  background-color: #f6e5d5 !important;
+  color: #ff6a00 !important;
+}

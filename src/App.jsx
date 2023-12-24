@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import MainPage from "./components/Main/MainPage";
 import Header from './components/header/Header'
+import AllCategories from "./components/header/AllCategories";
 export default function App() {
   const ScrollToTop = () => {
     const location = useLocation();
@@ -17,13 +18,14 @@ export default function App() {
     },
   });
   return (
-    <div>
-      <ThemeProvider theme={theme}>
+    <div className="bg-white w-100 h-100">
+      <ThemeProvider theme={theme} >
         <BrowserRouter>
           <ScrollToTop />
           <Header/>
-          <Routes>
+          <Routes className="bg-white">
             <Route index element={<MainPage/>} />
+            <Route path="/categories" element={<AllCategories/>} />
            
           </Routes>
         </BrowserRouter>

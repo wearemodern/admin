@@ -3,7 +3,7 @@ import "../../../css/header.css";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
-import CategoriesMenu from "./CategoriesMenu";
+
 export default function SubHeader() {
   const subHeaderItems1 = [
     { text: "دسته‌بندی‌ها", link: "/" },
@@ -41,7 +41,9 @@ export default function SubHeader() {
                   {item.text}
                 </Link>
               )}
-              {item.text == "دسته‌بندی‌ها" && <CategoriesMenu/>
+              {item.text == "دسته‌بندی‌ها" && <Link to="./categories" className="link-style"><span >
+                دسته‌بندی‌ها
+                </span></Link>
               }
               {item.text == "راهنما" && (
                 <>

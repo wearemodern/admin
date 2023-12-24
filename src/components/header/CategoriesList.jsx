@@ -1,3 +1,19 @@
+import HeadphonesOutlinedIcon from '@mui/icons-material/HeadphonesOutlined';
+import BlenderIcon from '@mui/icons-material/Blender';
+import ScaleRoundedIcon from '@mui/icons-material/ScaleRounded';
+import CoffeeMakerOutlinedIcon from '@mui/icons-material/CoffeeMakerOutlined';
+import BathtubOutlinedIcon from '@mui/icons-material/BathtubOutlined';
+import HotelIcon from '@mui/icons-material/Hotel';
+import HeatPumpOutlinedIcon from '@mui/icons-material/HeatPumpOutlined';
+import CleaningServicesOutlinedIcon from '@mui/icons-material/CleaningServicesOutlined';
+import RestaurantOutlinedIcon from '@mui/icons-material/RestaurantOutlined';
+import QueryBuilderOutlinedIcon from '@mui/icons-material/QueryBuilderOutlined';
+import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
+import HeadphonesBatteryOutlinedIcon from '@mui/icons-material/HeadphonesBatteryOutlined';
+import LaptopOutlinedIcon from '@mui/icons-material/LaptopOutlined';
+import MouseIcon from '@mui/icons-material/Mouse';
+import TvIcon from '@mui/icons-material/Tv';
+import WatchIcon from '@mui/icons-material/Watch';
 export default function CategoriesList() {
   const categories = [
     {
@@ -6,17 +22,20 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "صوتی و تصویری",
+      icon:<HeadphonesOutlinedIcon />,
+
           layer1_Link: "/",
           layer2: [
             { text: "نمایشگر تبلیغاتی", link: "/" },
             { text: "ویدیو پروژکتور", link: "/" },
-            { text: "ساند بار ", link: "/" },
+            { text: "ساندبار ", link: "/" },
             { text: "اندروید باکس ", link: "/" },
             { text: "گیرنده دیجیتال", link: "/" },
           ],
         },
         {
           text: " لوازم برقی و خانگی ",
+          icon:<BlenderIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "مایکروویو", link: "/" },
@@ -48,6 +67,7 @@ export default function CategoriesList() {
         },
         {
           text: " وسایل آشپزخانه و پذیرایی ",
+          icon:<ScaleRoundedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "سرویس قاشق و چنگال", link: "/" },
@@ -71,6 +91,7 @@ export default function CategoriesList() {
         },
         {
           text: "قهوه‌ساز و لوازم جانبی",
+          icon:<CoffeeMakerOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "اسپرسوساز", link: "/" },
@@ -87,6 +108,7 @@ export default function CategoriesList() {
         },
         {
           text: "کالای خواب و اتاق خواب",
+          icon:<HotelIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "روتختی", link: "/" },
@@ -98,6 +120,7 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم سرویس بهداشتی و حمام",
+          icon:<BathtubOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "ست سرویس بهداشتی", link: "/" },
@@ -110,6 +133,7 @@ export default function CategoriesList() {
         },
         {
           text: "تجهیزات سرمایشی و گرمایشی",
+          icon:<HeatPumpOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "کولر گازی", link: "/" },
@@ -123,6 +147,7 @@ export default function CategoriesList() {
         },
         {
           text: "شستشو و لوازم نظافت",
+          icon:<CleaningServicesOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "تی دستی", link: "/" },
@@ -136,10 +161,12 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم یک‌بار مصرف",
+          icon:<RestaurantOutlinedIcon/>,
           layer1_Link: "/",
         },
         {
           text: "اکسسوری خانه و آشپزخانه",
+          icon:< QueryBuilderOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "شمع", link: "/" },
@@ -160,6 +187,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "موبایل و تبلت",
+          icon:< PhoneIphoneOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "موبایل خاص", link: "/" },
@@ -168,6 +196,7 @@ export default function CategoriesList() {
         },
         {
           text: " لوازم جانبی موبایل و تبلت ",
+          icon:<HeadphonesBatteryOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "شارژر", link: "/" },
@@ -182,6 +211,7 @@ export default function CategoriesList() {
         },
         {
           text: "لپ‌تاپ",
+          icon:< LaptopOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "اقتصادی", link: "/" },
@@ -191,6 +221,7 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم جانبی لپ‌تاپ و کامپیوتر",
+          icon:<MouseIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "موس- پد موس", link: "/" },
@@ -203,6 +234,7 @@ export default function CategoriesList() {
         },
         {
           text: "ساعت و مچ‌بند هوشمند",
+          icon:<WatchIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "اپل واچ", link: "/" },
@@ -214,6 +246,7 @@ export default function CategoriesList() {
         },
         {
           text: "تلویزیون نوین",
+          icon:<TvIcon/>,
           layer1_Link: "/",
           layer2: [
             { text: "پروژکتور پرتابل", link: "/" },
@@ -222,7 +255,7 @@ export default function CategoriesList() {
           ],
         },
         {
-          text: "هدفون و هدست و میکروفون",
+          text: "هدفون، هدست و میکروفون",
           layer1_Link: "/",
           layer2: [
             { text: "گیمینگ", link: "/" },
@@ -368,7 +401,7 @@ export default function CategoriesList() {
           ],
         },
         {
-          text: "عظر و ادکلن",
+          text: "عطر و ادکلن",
           layer1_Link: "/",
           layer2: [
             { text: "اسپری بدن", link: "/" },
@@ -377,7 +410,7 @@ export default function CategoriesList() {
           ],
         },
         {
-          text: "لوارم شخصی برقی",
+          text: "لوازم شخصی برقی",
           layer1_Link: "/",
           layer2: [
             { text: "موزر", link: "/" },
@@ -825,7 +858,7 @@ export default function CategoriesList() {
           layer2: [{ text: "موتور کامل برند کوماتسو(کامنز)", link: "/" }],
         },
         {
-          text: "قظعات یدکی موتور",
+          text: "قطعات یدکی موتور",
           layer1_Link: "/",
           layer2: [
             { text: "YEM Part", link: "/" },
@@ -843,7 +876,7 @@ export default function CategoriesList() {
           ],
         },
         {
-          text: "لوازم برقی و سنسور و سوییچ",
+          text: "لوازم برقی، سنسور و سوییچ",
           layer1_Link: "/",
           layer2: [
             { text: "YEM Part", link: "/" },
