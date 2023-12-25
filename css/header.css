@@ -69,3 +69,26 @@
   border-radius: 50%;
   animation: blink 1.5s linear infinite;
 }
+.menu {
+  background-color: white;
+  height: 100vh;
+  width: 50vw;
+  z-index: 5 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 16px;
+}
+.menu-item {
+  padding: 10px;
+  font-weight: 500;
+  padding-right: 5px;
+  color: #232f3e;
+}
+.menu-item:hover {
+  background-color: #f6e5d5 !important;
+  color: #ff6a00 !important;
+}

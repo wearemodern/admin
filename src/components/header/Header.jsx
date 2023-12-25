@@ -4,6 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import Badge from "@mui/material/Badge";
 import { Link } from "react-router-dom";
 import LoginIcon from "@mui/icons-material/Login";
+import HamburgerMenu from "./HamburgerMenu";
 import SubHeader from "./SubHeader";
 import "../../../css/header.css";
 
@@ -16,9 +17,13 @@ export default function Header() {
   };
   return (
     <>
-      <div className="d-flex p-2 align-items-center header px-4 ">
-        <img src="" alt="logo" className="col-2" />
-        <div className="col-8 search-box d-flex align-items-center">
+      <div className="d-flex p-2 align-items-center header px-3 ">
+        <img src="" alt="logo" className="col-sm-2  d-none d-sm-block" />
+        <div  className="d-sm-none col-1 text-right justify-content-start pr-0" >
+        <HamburgerMenu/> 
+
+        </div>
+        <div className="col-11 col-sm-8 search-box d-flex align-items-center">
           
           <input
             type="text"
@@ -30,7 +35,7 @@ export default function Header() {
           />
           <SearchIcon className="text-orange" style={{ cursor: "pointer" }} />
         </div>
-        <div className="text-left mr-auto d-flex justify-content-between align-items-center">
+        <div className="text-left mr-auto d-sm-flex justify-content-between align-items-center d-none">
           {isLogin && (
             <div className="pointer">
               <CustomMenu />

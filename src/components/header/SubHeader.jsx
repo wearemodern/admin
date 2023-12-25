@@ -31,7 +31,7 @@ export default function SubHeader() {
     { text: "سوالات متداول", link: "/" },
   ];
   return (
-    <div className="sub-header d-flex align-items-center justify-content-between px-4">
+    <div className="sub-header d-sm-flex align-items-center justify-content-between px-4 d-none">
       <div className="d-flex">
         {subHeaderItems1.map((item, index) => {
           return (
