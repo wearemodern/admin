@@ -18,7 +18,11 @@ export default function AllCategories() {
     if (category.layer1) {
       setSelectedSubCategory(category.layer1[0]);
     }
-    if (category.layer1 && category.layer1.length && category.layer1[0].layer2) {
+    if (
+      category.layer1 &&
+      category.layer1.length &&
+      category.layer1[0].layer2
+    ) {
       setSelectedSubCategory2(category.layer1[0].layer2[0]);
     }
   };
@@ -35,6 +39,7 @@ export default function AllCategories() {
         {categories.map((mainCategory, index) => {
           return (
             <span
+              style={{ maxHeight: "53px" }}
               key={index}
               onMouseEnter={() => handleSelectedMainCategory(mainCategory)}
               className={` ${
@@ -49,7 +54,10 @@ export default function AllCategories() {
         })}
       </div>
       <Divider orientation="vertical" flexItem />
-      <div className="col-3 d-flex flex-column h-100 w-100 px-0">
+      <div
+        className="col-3 d-flex flex-column h-100 w-100 px-0"
+        style={{ maxHeight: "53px" }}
+      >
         {selectedMainCategory &&
           selectedMainCategory.layer1 &&
           selectedMainCategory.layer1.map((subCategory, index1) => {
@@ -61,11 +69,10 @@ export default function AllCategories() {
                     ? "selected-category"
                     : ""
                 } w-100 p-3`}
+                style={{ maxHeight: "53px" }}
                 onMouseEnter={() => handleSelectedSubCategory(subCategory)}
               >
-                <span className="ml-1">
-                {subCategory.icon}
-                </span>
+                <span className="ml-1">{subCategory.icon}</span>
                 {subCategory.text}
               </span>
             );
@@ -75,7 +82,12 @@ export default function AllCategories() {
         selectedMainCategory.layer1 &&
         selectedSubCategory &&
         selectedSubCategory.layer2 && (
-          <Divider orientation="vertical" flexItem className="min-vh-80" style={{overflow:'auto',height:'auto'}}/>
+          <Divider
+            orientation="vertical"
+            flexItem
+            className="min-vh-80"
+            style={{ overflow: "auto", height: "auto" }}
+          />
         )}
       <div className=" d-flex flex-column h-100 w-100 px-0">
         {selectedMainCategory &&
@@ -85,6 +97,7 @@ export default function AllCategories() {
           selectedSubCategory.layer2.map((subCategory2, index2) => {
             return (
               <span
+                style={{ maxHeight: "53px" }}
                 key={index2}
                 className={` ${
                   subCategory2.text == selectedSubCategory2.text

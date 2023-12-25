@@ -1,27 +1,72 @@
-import HeadphonesOutlinedIcon from '@mui/icons-material/HeadphonesOutlined';
-import BlenderIcon from '@mui/icons-material/Blender';
-import ScaleRoundedIcon from '@mui/icons-material/ScaleRounded';
-import CoffeeMakerOutlinedIcon from '@mui/icons-material/CoffeeMakerOutlined';
-import BathtubOutlinedIcon from '@mui/icons-material/BathtubOutlined';
-import HotelIcon from '@mui/icons-material/Hotel';
-import HeatPumpOutlinedIcon from '@mui/icons-material/HeatPumpOutlined';
-import CleaningServicesOutlinedIcon from '@mui/icons-material/CleaningServicesOutlined';
-import RestaurantOutlinedIcon from '@mui/icons-material/RestaurantOutlined';
-import QueryBuilderOutlinedIcon from '@mui/icons-material/QueryBuilderOutlined';
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-import HeadphonesBatteryOutlinedIcon from '@mui/icons-material/HeadphonesBatteryOutlined';
-import LaptopOutlinedIcon from '@mui/icons-material/LaptopOutlined';
-import MouseIcon from '@mui/icons-material/Mouse';
-import TvIcon from '@mui/icons-material/Tv';
-import WatchIcon from '@mui/icons-material/Watch';
-import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
-import VolumeUpIcon from '@mui/icons-material/VolumeUp';
-import SdIcon from '@mui/icons-material/Sd';
-import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
-import WifiIcon from '@mui/icons-material/Wifi';
-import LocalPrintshopRoundedIcon from '@mui/icons-material/LocalPrintshopRounded';
-import Battery6BarRoundedIcon from '@mui/icons-material/Battery6BarRounded';
+import HeadphonesOutlinedIcon from "@mui/icons-material/HeadphonesOutlined";
+import BlenderIcon from "@mui/icons-material/Blender";
+import ScaleRoundedIcon from "@mui/icons-material/ScaleRounded";
+import CoffeeMakerOutlinedIcon from "@mui/icons-material/CoffeeMakerOutlined";
+import BathtubOutlinedIcon from "@mui/icons-material/BathtubOutlined";
+import HotelIcon from "@mui/icons-material/Hotel";
+import HeatPumpOutlinedIcon from "@mui/icons-material/HeatPumpOutlined";
+import CleaningServicesOutlinedIcon from "@mui/icons-material/CleaningServicesOutlined";
+import RestaurantOutlinedIcon from "@mui/icons-material/RestaurantOutlined";
+import QueryBuilderOutlinedIcon from "@mui/icons-material/QueryBuilderOutlined";
+import PhoneIphoneOutlinedIcon from "@mui/icons-material/PhoneIphoneOutlined";
+import HeadphonesBatteryOutlinedIcon from "@mui/icons-material/HeadphonesBatteryOutlined";
+import LaptopOutlinedIcon from "@mui/icons-material/LaptopOutlined";
+import MouseIcon from "@mui/icons-material/Mouse";
+import TvIcon from "@mui/icons-material/Tv";
+import WatchIcon from "@mui/icons-material/Watch";
+import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
+import VolumeUpIcon from "@mui/icons-material/VolumeUp";
+import SdIcon from "@mui/icons-material/Sd";
+import PhotoCameraIcon from "@mui/icons-material/PhotoCamera";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import WifiIcon from "@mui/icons-material/Wifi";
+import LocalPrintshopRoundedIcon from "@mui/icons-material/LocalPrintshopRounded";
+import Battery6BarRoundedIcon from "@mui/icons-material/Battery6BarRounded";
+import ChildFriendlyIcon from "@mui/icons-material/ChildFriendly";
+import CleanHandsIcon from "@mui/icons-material/CleanHands";
+import SanitizerIcon from "@mui/icons-material/Sanitizer";
+import CableIcon from "@mui/icons-material/Cable";
+import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
+import MedicationLiquidIcon from "@mui/icons-material/MedicationLiquid";
+import { GiLargeDress } from "react-icons/gi";
+import { LuBaby } from "react-icons/lu";
+import { FaTshirt } from "react-icons/fa";
+import { BsSunglasses } from "react-icons/bs";
+import { GiCampingTent } from "react-icons/gi";
+import { FaSuitcaseRolling } from "react-icons/fa6";
+import { MdBackpack } from "react-icons/md";
+import { TbPerfume } from "react-icons/tb";
+import KitchenIcon from "@mui/icons-material/Kitchen";
+import { TbLighter } from "react-icons/tb";
+import { IoTelescopeSharp } from "react-icons/io5";
+import { GiBarbecue } from "react-icons/gi";
+import { TbShirtSport } from "react-icons/tb";
+import { GiFlatTire } from "react-icons/gi";
+import FitnessCenterRoundedIcon from "@mui/icons-material/FitnessCenterRounded";
+import PedalBikeRoundedIcon from "@mui/icons-material/PedalBikeRounded";
+import RollerSkatingRoundedIcon from "@mui/icons-material/RollerSkatingRounded";
+import ExtensionRoundedIcon from "@mui/icons-material/ExtensionRounded";
+import { MdOutlineToys } from "react-icons/md";
+import { MdOutlineSports } from "react-icons/md";
+import { MdMenuBook } from "react-icons/md";
+import { FaPenClip } from "react-icons/fa6";
+import BrushOutlinedIcon from "@mui/icons-material/BrushOutlined";
+import ColorLensOutlinedIcon from "@mui/icons-material/ColorLensOutlined";
+import HandymanOutlinedIcon from '@mui/icons-material/HandymanOutlined';
+import CarpenterOutlinedIcon from '@mui/icons-material/CarpenterOutlined';
+import BatterySaverOutlinedIcon from '@mui/icons-material/BatterySaverOutlined';
+import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
+import HomeRepairServiceOutlinedIcon from '@mui/icons-material/HomeRepairServiceOutlined';
+import AgricultureOutlinedIcon from '@mui/icons-material/AgricultureOutlined';
+import ElectricalServicesOutlinedIcon from '@mui/icons-material/ElectricalServicesOutlined';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import RoomPreferencesOutlinedIcon from '@mui/icons-material/RoomPreferencesOutlined';
+import LensOutlinedIcon from '@mui/icons-material/LensOutlined';
+import { TbSettingsCog } from "react-icons/tb";
+import { FaHelmetSafety } from "react-icons/fa6";
+import { MdOutlineSafetyDivider } from "react-icons/md";
+import AutoStoriesOutlinedIcon from '@mui/icons-material/AutoStoriesOutlined';
+import GppGoodIcon from '@mui/icons-material/GppGood';
 export default function CategoriesList() {
   const categories = [
     {
@@ -30,7 +75,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "صوتی و تصویری",
-      icon:<KeyboardVoiceIcon />,
+          icon: <KeyboardVoiceIcon />,
 
           layer1_Link: "/",
           layer2: [
@@ -43,7 +88,7 @@ export default function CategoriesList() {
         },
         {
           text: " لوازم برقی و خانگی ",
-          icon:<BlenderIcon/>,
+          icon: <BlenderIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "مایکروویو", link: "/" },
@@ -75,7 +120,7 @@ export default function CategoriesList() {
         },
         {
           text: " وسایل آشپزخانه و پذیرایی ",
-          icon:<ScaleRoundedIcon/>,
+          icon: <ScaleRoundedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "سرویس قاشق و چنگال", link: "/" },
@@ -99,7 +144,7 @@ export default function CategoriesList() {
         },
         {
           text: "قهوه‌ساز و لوازم جانبی",
-          icon:<CoffeeMakerOutlinedIcon/>,
+          icon: <CoffeeMakerOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "اسپرسوساز", link: "/" },
@@ -116,7 +161,7 @@ export default function CategoriesList() {
         },
         {
           text: "کالای خواب و اتاق خواب",
-          icon:<HotelIcon/>,
+          icon: <HotelIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "روتختی", link: "/" },
@@ -128,7 +173,7 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم سرویس بهداشتی و حمام",
-          icon:<BathtubOutlinedIcon/>,
+          icon: <BathtubOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "ست سرویس بهداشتی", link: "/" },
@@ -141,7 +186,7 @@ export default function CategoriesList() {
         },
         {
           text: "تجهیزات سرمایشی و گرمایشی",
-          icon:<HeatPumpOutlinedIcon/>,
+          icon: <HeatPumpOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "کولر گازی", link: "/" },
@@ -155,7 +200,7 @@ export default function CategoriesList() {
         },
         {
           text: "شستشو و لوازم نظافت",
-          icon:<CleaningServicesOutlinedIcon/>,
+          icon: <CleaningServicesOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "تی دستی", link: "/" },
@@ -169,12 +214,12 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم یک‌بار مصرف",
-          icon:<RestaurantOutlinedIcon/>,
+          icon: <RestaurantOutlinedIcon />,
           layer1_Link: "/",
         },
         {
           text: "اکسسوری خانه و آشپزخانه",
-          icon:< QueryBuilderOutlinedIcon/>,
+          icon: <QueryBuilderOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "شمع", link: "/" },
@@ -195,7 +240,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "موبایل و تبلت",
-          icon:< PhoneIphoneOutlinedIcon />,
+          icon: <PhoneIphoneOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "موبایل خاص", link: "/" },
@@ -204,11 +249,11 @@ export default function CategoriesList() {
         },
         {
           text: " لوازم جانبی موبایل و تبلت ",
-          icon:<HeadphonesBatteryOutlinedIcon/>,
+          icon: <HeadphonesBatteryOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "شارژر", link: "/" },
-            { text: "گارد-گلس", link: "/" },
+            { text: "گاردو گلس", link: "/" },
             { text: "هندزفری", link: "/" },
             { text: "کابل شارژر", link: "/" },
             { text: "دسته بازی موبایل", link: "/" },
@@ -219,7 +264,7 @@ export default function CategoriesList() {
         },
         {
           text: "لپ‌تاپ",
-          icon:< LaptopOutlinedIcon/>,
+          icon: <LaptopOutlinedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "اقتصادی", link: "/" },
@@ -229,20 +274,20 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم جانبی لپ‌تاپ و کامپیوتر",
-          icon:<MouseIcon/>,
+          icon: <MouseIcon />,
           layer1_Link: "/",
           layer2: [
-            { text: "موس- پد موس", link: "/" },
+            { text: "موس و پد موس", link: "/" },
             { text: "کیبورد", link: "/" },
             { text: "دانگل wifi", link: "/" },
             { text: "کول‌پد", link: "/" },
-            { text: "اسپیکر-کیف حمل", link: "/" },
+            { text: "اسپیکر و کیف حمل", link: "/" },
             { text: "کاور", link: "/" },
           ],
         },
         {
           text: "ساعت و مچ‌بند هوشمند",
-          icon:<WatchIcon/>,
+          icon: <WatchIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "اپل واچ", link: "/" },
@@ -254,7 +299,7 @@ export default function CategoriesList() {
         },
         {
           text: "تلویزیون نوین",
-          icon:<TvIcon/>,
+          icon: <TvIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "پروژکتور پرتابل", link: "/" },
@@ -264,7 +309,7 @@ export default function CategoriesList() {
         },
         {
           text: "هدفون، هدست و میکروفون",
-          icon:<HeadphonesOutlinedIcon />,
+          icon: <HeadphonesOutlinedIcon />,
 
           layer1_Link: "/",
           layer2: [
@@ -280,7 +325,7 @@ export default function CategoriesList() {
         {
           text: "اسپیکر",
           layer1_Link: "/",
-          icon:< VolumeUpIcon />,
+          icon: <VolumeUpIcon />,
           layer2: [
             { text: "خانگی", link: "/" },
             { text: "قابل حمل", link: "/" },
@@ -289,7 +334,7 @@ export default function CategoriesList() {
         {
           text: "هارد و فلش",
           layer1_Link: "/",
-          icon:< SdIcon />,
+          icon: <SdIcon />,
           layer2: [
             { text: "اینترنال", link: "/" },
             { text: "اکسترنال", link: "/" },
@@ -300,7 +345,7 @@ export default function CategoriesList() {
         {
           text: "دوربین عکاسی و لوازم جانبی",
           layer1_Link: "/",
-          icon:<PhotoCameraIcon/>,
+          icon: <PhotoCameraIcon />,
           layer2: [
             { text: "عکاسی", link: "/" },
             { text: "فیلم‌برداری", link: "/" },
@@ -316,7 +361,7 @@ export default function CategoriesList() {
         {
           text: "گیمینگ و لوازم جانبی",
           layer1_Link: "/",
-          icon:< SportsEsportsIcon/>,
+          icon: <SportsEsportsIcon />,
           layer2: [
             { text: "دسته بازی گوشی", link: "/" },
             { text: "دسته بازی کامپیوتر", link: "/" },
@@ -331,7 +376,7 @@ export default function CategoriesList() {
         {
           text: "دوربین‌های شبکه و تجهیزات",
           layer1_Link: "/",
-          icon:<WifiIcon/>,
+          icon: <WifiIcon />,
           layer2: [
             { text: "دوربین وایرلس", link: "/" },
             { text: "دزدگیر وایرلس", link: "/" },
@@ -339,7 +384,7 @@ export default function CategoriesList() {
         },
         {
           text: "مودم، پرینتر و تلفن",
-          icon:< LocalPrintshopRoundedIcon />,
+          icon: <LocalPrintshopRoundedIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "HP", link: "/" },
@@ -354,7 +399,7 @@ export default function CategoriesList() {
         {
           text: "اکسسوری دیجیتال",
           layer1_Link: "/",
-          icon:< Battery6BarRoundedIcon />,
+          icon: <Battery6BarRoundedIcon />,
           layer2: [
             { text: "مترجم همراه", link: "/" },
             { text: "باتری", link: "/" },
@@ -369,16 +414,17 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "لوازم آرایشی و بهداشتی",
+          icon: <SanitizerIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "کرم پودر", link: "/" },
             { text: "پنکک", link: "/" },
-            { text: "ریمل-خط چشم", link: "/" },
-            { text: "لاک-رژ لب", link: "/" },
-            { text: "حط لب-مداد چشم", link: "/" },
-            { text: "سایه ابرو- مژه مصنوعی", link: "/" },
-            { text: "سایه چشم- ناخن مصنوعی", link: "/" },
-            { text: "فرمژه- کانسیلر", link: "/" },
+            { text: "ریمل و خط چشم", link: "/" },
+            { text: "لاک و رژ لب", link: "/" },
+            { text: "خط لب و مداد چشم", link: "/" },
+            { text: "سایه ابرو و مژه مصنوعی", link: "/" },
+            { text: "سایه چشم و ناخن مصنوعی", link: "/" },
+            { text: "فرمژه و کانسیلر", link: "/" },
             { text: "ست مانیکور و پدیکور", link: "/" },
             { text: "براش و شانه و برس", link: "/" },
             { text: "پد آرایش", link: "/" },
@@ -387,12 +433,13 @@ export default function CategoriesList() {
         {
           text: "مراقبت پوست و مو",
           layer1_Link: "/",
+          icon: <CleanHandsIcon />,
           layer2: [
-            { text: "شامپو- ماسک مو", link: "/" },
+            { text: "شامپو و ماسک مو", link: "/" },
             { text: "آبرسان", link: "/" },
-            { text: "نرم‌کننده- مام زیر بغل", link: "/" },
+            { text: "نرم‌کننده و مام زیر بغل", link: "/" },
             { text: "کرم و موم موبر", link: "/" },
-            { text: "ضد آفتاب- کرم زیر چشم", link: "/" },
+            { text: "ضد آفتاب و کرم زیر چشم", link: "/" },
             { text: "افترشیو", link: "/" },
             { text: "کرم دست و صورت و مرطوب‌کننده", link: "/" },
             { text: "ماسک صورت", link: "/" },
@@ -403,6 +450,7 @@ export default function CategoriesList() {
         {
           text: "لوازم کودک و نوزاد",
           layer1_Link: "/",
+          icon: <ChildFriendlyIcon />,
           layer2: [
             { text: "کالسکه و کریر", link: "/" },
             { text: "عروسک", link: "/" },
@@ -414,11 +462,12 @@ export default function CategoriesList() {
             { text: "چراغ خواب کودک", link: "/" },
             { text: "پستونک وشیردوش و شیشه", link: "/" },
             { text: "وسایل نظارتی کودک", link: "/" },
-            { text: "سرویس غذاخوری کودک- غذاساز کودک", link: "/" },
+            { text: "سرویس غذاخوری کودک و  غذاساز کودک", link: "/" },
           ],
         },
         {
           text: "عطر و ادکلن",
+          icon: <TbPerfume style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             { text: "اسپری بدن", link: "/" },
@@ -428,6 +477,7 @@ export default function CategoriesList() {
         },
         {
           text: "لوازم شخصی برقی",
+          icon: <CableIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "موزر", link: "/" },
@@ -447,6 +497,7 @@ export default function CategoriesList() {
         },
         {
           text: "تجهیزات مراقبتی و سلامتی",
+          icon: <LocalHospitalIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "تست قند خون", link: "/" },
@@ -461,6 +512,7 @@ export default function CategoriesList() {
         },
         {
           text: "اکسسوری زیبایی و سلامت",
+          icon: <MedicationLiquidIcon />,
           layer1_Link: "/",
         },
       ],
@@ -471,6 +523,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "مردانه",
+          icon: <FaTshirt style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             { text: "پیراهن", link: "/" },
@@ -487,6 +540,7 @@ export default function CategoriesList() {
         },
         {
           text: "زنانه",
+          icon: <GiLargeDress style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             { text: "پیراهن", link: "/" },
@@ -506,6 +560,7 @@ export default function CategoriesList() {
         {
           text: "بچگانه",
           layer1_Link: "/",
+          icon: <LuBaby style={{ fontSize: "24px" }} />,
           layer2: [
             { text: "پیراهن", link: "/" },
             { text: "تی‌شرت", link: "/" },
@@ -521,6 +576,7 @@ export default function CategoriesList() {
         },
         {
           text: "اکسسوری مد و پوشاک",
+          icon: <BsSunglasses style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             { text: "کمربند", link: "/" },
@@ -528,7 +584,7 @@ export default function CategoriesList() {
             { text: "ساعت", link: "/" },
             { text: "جاکارتی", link: "/" },
             {
-              text: "آویز(گردنبند، دست‌بند، پیرسینگ، انگشتر و ...)",
+              text: "آویز(گردنبند، دست‌بند، پیرسینگ،انگشتر و ...)",
               link: "/",
             },
           ],
@@ -541,6 +597,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "تجهیزات گردش و سفر",
+          icon: <FaSuitcaseRolling style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             { text: "پمپ باد", link: "/" },
@@ -551,7 +608,7 @@ export default function CategoriesList() {
             { text: "اینورتر", link: "/" },
             { text: "جامپ استارتر", link: "/" },
             { text: "چراغ قوه", link: "/" },
-            { text: " نئو- زیرانداز", link: "/" },
+            { text: " نئو و زیرانداز", link: "/" },
             { text: "تشک بادی", link: "/" },
             { text: "کلمن", link: "/" },
             { text: "میز و صندلی", link: "/" },
@@ -560,8 +617,9 @@ export default function CategoriesList() {
         {
           text: "کوهنوردی و کمپینگ",
           layer1_Link: "/",
+          icon: <GiCampingTent style={{ fontSize: "24px" }} />,
           layer2: [
-            { text: "چاقو-ابزار چندکاره", link: "/" },
+            { text: "چاقو و ابزار چندکاره", link: "/" },
             { text: "ست نجات کمک‌های اولیه", link: "/" },
             { text: "ست غذاخوری", link: "/" },
             { text: "ست قاشق و چنگال", link: "/" },
@@ -582,6 +640,7 @@ export default function CategoriesList() {
         {
           text: "چمدان و کوله‌پشتی",
           layer1_Link: "/",
+          icon: <MdBackpack style={{ fontSize: "24px" }} />,
           layer2: [
             { text: "کوله تاکتیکال", link: "/" },
             { text: "کوله پشتی", link: "/" },
@@ -590,6 +649,7 @@ export default function CategoriesList() {
         },
         {
           text: "یخچال پرتابل (قابل حمل)",
+          icon: <KitchenIcon />,
           layer1_Link: "/",
           layer2: [
             { text: "خودرویی", link: "/" },
@@ -599,6 +659,7 @@ export default function CategoriesList() {
         {
           text: "فندک و لوازم جانبی",
           layer1_Link: "/",
+          icon: <TbLighter style={{ fontSize: "24px" }} />,
           layer2: [
             { text: "فندک اتمی، سنگی و بنزینی", link: "/" },
             { text: "اسپارکر", link: "/" },
@@ -608,6 +669,7 @@ export default function CategoriesList() {
         {
           text: "دوربین‌های شکاری و تلسکوپ",
           layer1_Link: "/",
+          icon: <IoTelescopeSharp style={{ fontSize: "24px" }} />,
           layer2: [
             { text: "دوربین شکاری، دوچشمی و تک چشمی", link: "/" },
             { text: "تلسکوپ مستقیم، بازتابی", link: "/" },
@@ -616,10 +678,11 @@ export default function CategoriesList() {
         {
           text: "اکسسوری کمپینگ و سفر",
           layer1_Link: "/",
+          icon: <GiBarbecue style={{ fontSize: "24px" }} />,
           layer2: [
-            { text: "کلاه- هدبند", link: "/" },
+            { text: "کلاه و هدبند", link: "/" },
             { text: "برچسب", link: "/" },
-            { text: "باربیکیو- سه پایه آتش", link: "/" },
+            { text: "باربیکیو و سه پایه آتش", link: "/" },
             { text: "آفتابه مسافرتی", link: "/" },
             { text: "کیف نظم دهنده", link: "/" },
             { text: "گالن آب", link: "/" },
@@ -628,6 +691,7 @@ export default function CategoriesList() {
         {
           text: "لوازم خودرو",
           layer1_Link: "/",
+          icon: <GiFlatTire style={{ fontSize: "24px" }} />,
         },
       ],
     },
@@ -637,6 +701,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "پوشاک ورزشی",
+          icon: <TbShirtSport style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             {
@@ -663,8 +728,8 @@ export default function CategoriesList() {
               layer3: [
                 { text: "شلوارک", link: "/" },
                 { text: "ست ورزشی", link: "/" },
-                { text: "دستکش- هدبند", link: "/" },
-                { text: "زانوبند- مچ‌بند", link: "/" },
+                { text: "دستکش و هدبند", link: "/" },
+                { text: "زانوبند و مچ‌بند", link: "/" },
                 { text: "کفش و جوراب", link: "/" },
                 { text: "تی‌شرت", link: "/" },
                 { text: "شلوار گرمکن", link: "/" },
@@ -678,6 +743,7 @@ export default function CategoriesList() {
         {
           text: "لوازم و تجهیزات ورزشی",
           layer1_Link: "/",
+          icon: <FitnessCenterRoundedIcon />,
           layer2: [
             { text: "وزنه", link: "/" },
             { text: "گریپستر", link: "/" },
@@ -693,6 +759,7 @@ export default function CategoriesList() {
         {
           text: "دوچرخه",
           layer1_Link: "/",
+          icon: <PedalBikeRoundedIcon />,
           layer2: [
             { text: "تاشو وهیبریدی", link: "/" },
             { text: "شهری", link: "/" },
@@ -701,6 +768,7 @@ export default function CategoriesList() {
         {
           text: "اسکیت و اسکوتر",
           layer1_Link: "/",
+          icon: <RollerSkatingRoundedIcon />,
           layer2: [
             { text: "اسکیت", link: "/" },
             { text: "اسکیت برد", link: "/" },
@@ -712,15 +780,17 @@ export default function CategoriesList() {
         {
           text: "اسباب‌بازی",
           layer1_Link: "/",
+          icon: <MdOutlineToys style={{ fontSize: "24px" }} />,
           layer2: [
             { text: "عروسک", link: "/" },
             { text: "ماشین کنترلی", link: "/" },
-            { text: "تفنگ آبی، ساچمه پلاستیکی", link: "/" },
+            { text: "تفنگ آبی و ساچمه پلاستیکی", link: "/" },
           ],
         },
         {
           text: "بازی‌های فکری",
           layer1_Link: "/",
+          icon: <ExtensionRoundedIcon />,
           layer2: [
             { text: "گروهی", link: "/" },
             { text: "پازل", link: "/" },
@@ -730,6 +800,7 @@ export default function CategoriesList() {
         {
           text: "اکسسوری ورزش و سرگرمی",
           layer1_Link: "/",
+          icon: <MdOutlineSports style={{ fontSize: "24px" }} />,
           layer2: [
             { text: "گوش‌گیر و بینی‌بند", link: "/" },
             { text: "عینک شنا", link: "/" },
@@ -745,6 +816,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "کتاب و مجله",
+          icon: <MdMenuBook style={{ fontSize: "24px" }} />,
           layer1_Link: "/",
           layer2: [
             { text: "کتاب ‌آموزشی", link: "/" },
@@ -761,6 +833,7 @@ export default function CategoriesList() {
         {
           text: "لوازم تحریر",
           layer1_Link: "/",
+          icon: <FaPenClip style={{ fontSize: "18px" }} />,
           layer2: [
             { text: "ست اداری", link: "/" },
             { text: "مداد و مداد فشاری", link: "/" },
@@ -781,11 +854,13 @@ export default function CategoriesList() {
         {
           text: "فرهنگ و هنر",
           layer1_Link: "/",
+          icon: <BrushOutlinedIcon />,
           layer2: [{ text: "صنایع دستی", link: "/" }],
         },
         {
           text: "اکسسوری شهر کتاب",
           layer1_Link: "/",
+          icon: <ColorLensOutlinedIcon />,
         },
       ],
     },
@@ -797,6 +872,7 @@ export default function CategoriesList() {
         {
           text: "ابزار برقی/شارژی",
           layer1_Link: "/",
+          icon:< HandymanOutlinedIcon/>,
           layer2: [
             { text: "دریل", link: "/" },
             { text: "سنگ فرز", link: "/" },
@@ -815,6 +891,7 @@ export default function CategoriesList() {
         {
           text: "ابزار دستی",
           layer1_Link: "/",
+          icon:< BuildOutlinedIcon/>,
           layer2: [
             { text: "پیچ گوشتی", link: "/" },
             { text: "انبرها", link: "/" },
@@ -824,6 +901,7 @@ export default function CategoriesList() {
         {
           text: "تجهیزات الکتریکی",
           layer1_Link: "/",
+          icon:<BatterySaverOutlinedIcon/>,
           layer2: [
             { text: "هویه", link: "/" },
             { text: "باتری", link: "/" },
@@ -836,6 +914,7 @@ export default function CategoriesList() {
         {
           text: "تجهیزات باغبانی و کشاورزی",
           layer1_Link: "/",
+          icon:<CarpenterOutlinedIcon/>,
           layer2: [
             { text: "بیلچه", link: "/" },
             { text: "آب‌پاش", link: "/" },
@@ -853,6 +932,7 @@ export default function CategoriesList() {
         {
           text: "اکسسوری ابزارآلات",
           layer1_Link: "/",
+          icon:<HomeRepairServiceOutlinedIcon/>,
           layer2: [
             { text: "کیف ابزار", link: "/" },
             { text: "جعبه ابزار", link: "/" },
@@ -872,11 +952,13 @@ export default function CategoriesList() {
         {
           text: "موتور",
           layer1_Link: "/",
+          icon:<SettingsOutlinedIcon/>,
           layer2: [{ text: "موتور کامل برند کوماتسو(کامنز)", link: "/" }],
         },
         {
           text: "قطعات یدکی موتور",
           layer1_Link: "/",
+          icon:< RoomPreferencesOutlinedIcon />,
           layer2: [
             { text: "YEM Part", link: "/" },
             { text: "EZOMI", link: "/" },
@@ -886,15 +968,17 @@ export default function CategoriesList() {
         {
           text: "پمپ هیدرولیک",
           layer1_Link: "/",
+          icon:<TbSettingsCog style={{fontSize:'24px'}}/>,
           layer2: [
             { text: "YEM Part", link: "/" },
             { text: "EZOMI", link: "/" },
             { text: "تمام محصولات پمپ مادر", link: "/" },
           ],
-        },
+        }, 
         {
           text: "لوازم برقی، سنسور و سوییچ",
           layer1_Link: "/",
+          icon:<ElectricalServicesOutlinedIcon/>,
           layer2: [
             { text: "YEM Part", link: "/" },
             { text: "EZOMI", link: "/" },
@@ -904,10 +988,12 @@ export default function CategoriesList() {
         {
           text: "اورینگ و کاسه نمد",
           layer1_Link: "/",
+          icon:< LensOutlinedIcon/>,
           layer2: [{ text: "تمام محصولات JEL کره", link: "/" }],
         },
         {
           text: "اکسسوری قطعات ماشین‌آلات و راهسازی",
+          icon:<AgricultureOutlinedIcon/>,
           layer1_Link: "/",
           layer2: [{ text: "دیداری چین", link: "/" }],
         },
@@ -919,6 +1005,7 @@ export default function CategoriesList() {
       layer1: [
         {
           text: "تجهیزات و حفاظت فردی",
+          icon:<FaHelmetSafety style={{fontSize:'20px'}}/>,
           layer1_Link: "/",
           layer2: [
             { text: "لباس", link: "/" },
@@ -933,6 +1020,7 @@ export default function CategoriesList() {
         {
           text: "تجهیزات و حفاظت کارگاهی",
           layer1_Link: "/",
+          icon:<MdOutlineSafetyDivider style={{fontSize:'24px'}} />,
           layer2: [
             { text: "تابلو", link: "/" },
             { text: "علائم هشداردهنده", link: "/" },
@@ -944,10 +1032,12 @@ export default function CategoriesList() {
         {
           text: "کتاب‌های ایمنی(HSE)",
           layer1_Link: "/",
+          icon:<AutoStoriesOutlinedIcon/>
         },
         {
           text: "اکسسوری ایمنی",
           layer1_Link: "/",
+          icon:<GppGoodIcon/>,
         },
       ],
     },
