@@ -57,3 +57,10 @@
   background-color: #f6e5d5 !important;
   color: #ff6a00 !important;
 }
+.css-26w9jf-MuiMobileStepper-dot {
+  background-color:#ff6a00 !important;
+  
+}
+.css-kcxs5m-MuiPaper-root-MuiMobileStepper-root{
+  width: 55vw !important;
+}
