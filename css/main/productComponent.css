@@ -78,15 +78,11 @@
   .swiper-button-next.swiper-button-disabled {
     display: none;
   }
-  .productDetails-page {
-    background: rgb(248, 246, 246);
-    padding: 20px;
-    min-height: 100vh !important;
-    height: auto;
-  }
+  
   .product-card {
-    /* width: 200px !important; */
-    height: 200px !important;
+    width:100% !important;
+    height: 240px !important;
+    font-size: 12px;
   }
   .product-image {
     min-width: 180px !important;
@@ -97,7 +93,12 @@
     padding-top: 10px;
   }
   .mySwiper {
-    height: 420px !important;
+    height: 300px !important;
     box-shadow: none !important;
+    display: flex;
+    align-items: center !important;
+  }
+  .swiper{
+    height: 240px !important;
   }
 }

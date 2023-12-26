@@ -7,7 +7,7 @@ export default function ProductComponent({ product }) {
     <Link
       style={{ textDecoration: "none" }}
       to={`product/${product.id}`}
-      className="text-secondary border border-1 d-flex flex-column justify-content-center align-items-center product-card bg-white text-center mx-auto py-2"
+      className="text-secondary border border-1 d-flex flex-column justify-content-center align-items-center product-card bg-white  py-2"
     >
       <img
         src={product.image}
@@ -15,17 +15,17 @@ export default function ProductComponent({ product }) {
         className=" product-image w-80"
         style={{ aspectRatio: 1 / 1, objectFit: "contain" }}
       />
-      <h6 className="text-center p-1 p-sm-3">
+      <b className="text-center p-1 p-sm-3">
         {product.title.length < 45
           ? product.title
           : product.title.slice(0, 45) + "..."}
-      </h6>
+      </b>
 
       <div className="d-flex justify-content-between align-items-center w-100 px-4 w-100">
         {product.discounted && (
           <div className="d-flex w-100 align-items-center pb-2 justify-content-between">
             <div className=" text-left  px-1">
-              <Chip className="bg-danger text-white text-left" label="20%" />
+              <Chip className="bg-danger text-white text-left" label="20%" small />
             </div>
             <div>
               <div className="d-flex">
