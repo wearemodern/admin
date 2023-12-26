@@ -6,7 +6,7 @@ import CategoriesList from "./CategoriesList";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import '../../../css/main/categories.css'
+import "../../../css/main/categories.css";
 export default function TextMobileStepper() {
   const allCategories = CategoriesList();
   const goToSubCategory = (stepNumber) => {
@@ -77,9 +77,11 @@ export default function TextMobileStepper() {
                 >
                   {mainCategory.title}
                 </Link>
-              { mainCategory && mainCategory.layer1 &&  <span onClick={()=>goToSubCategory(2)}>
-                  <ArrowBackIcon />
-                </span>}
+                {mainCategory && mainCategory.layer1 && (
+                  <span onClick={() => goToSubCategory(2)}>
+                    <ArrowBackIcon />
+                  </span>
+                )}
               </span>
             );
           })}
@@ -98,46 +100,42 @@ export default function TextMobileStepper() {
                 style={{ maxHeight: "53px" }}
                 onMouseEnter={() => handleSelectedSubCategory(subCategory)}
               >
-              <div className="d-flex">
-              <span className="ml-1">{subCategory.icon}</span>
-                {subCategory.text}
+                <div className="d-flex">
+                  <span className="ml-1">{subCategory.icon}</span>
+                  {subCategory.text}
+                </div>
+                <div key={index1}>
+                  {subCategory && subCategory.layer2 && (
+                    <span onClick={() => goToSubCategory(3)}>
+                      <ArrowBackIcon />
+                    </span>
+                  )}
+                </div>
               </div>
-            <div key={index1}>
-           { subCategory &&
-              subCategory.layer2 && <span onClick={()=>goToSubCategory(3)}>
-                  <ArrowBackIcon />
-                </span>}
-            </div>
-              </div>
-              
             );
           })}
-
-          {
-            step==3 && 
-            selectedMainCategory &&
-              selectedMainCategory.layer1 &&
-              selectedSubCategory &&
-              selectedSubCategory.layer2 &&
-              selectedSubCategory.layer2.map((subCategory2, index2) => {
-                return (
-                  <span
-                    style={{ maxHeight: "53px" }}
-                    key={index2}
-                    className={` ${
-                      subCategory2.text == selectedSubCategory2.text
-                        ? "selected-category"
-                        : ""
-                    } w-100 p-3`}
-                    onMouseEnter={() => handleSelectedSubCategory2(subCategory2)}
-                  >
-                    {subCategory2.text}
-                  </span>
-                );
-              })
-          }
+        {step == 3 &&
+          selectedMainCategory &&
+          selectedMainCategory.layer1 &&
+          selectedSubCategory &&
+          selectedSubCategory.layer2 &&
+          selectedSubCategory.layer2.map((subCategory2, index2) => {
+            return (
+              <span
+                style={{ maxHeight: "53px" }}
+                key={index2}
+                className={` ${
+                  subCategory2.text == selectedSubCategory2.text
+                    ? "selected-category"
+                    : ""
+                } w-100 p-3`}
+                onMouseEnter={() => handleSelectedSubCategory2(subCategory2)}
+              >
+                {subCategory2.text}
+              </span>
+            );
+          })}
       </div>
-
       <MobileStepper
         variant="dots"
         steps={3}
@@ -145,10 +143,15 @@ export default function TextMobileStepper() {
         activeStep={activeStep}
         sx={{ maxWidth: 400, flexGrow: 1, color: "#ff6a00" }}
         classes={{
-          dotActive: 'text-orange bg-orange',
+          dotActive: "text-orange bg-orange",
         }}
         backButton={
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0} style={{border:'none',outline:'none'}}>
+          <Button
+            size="small"
+            onClick={handleBack}
+            disabled={activeStep === 0}
+            style={{ border: "none", outline: "none" }}
+          >
             <KeyboardArrowRight className="text-orange" />
             <span className="text-orange">قبل</span>
           </Button>

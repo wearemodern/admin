@@ -64,3 +64,11 @@
 .css-kcxs5m-MuiPaper-root-MuiMobileStepper-root{
   width: 55vw !important;
 }
+.categories-main-page{
+  width: 75%;
+}
+@media screen and (max-width:600px) {
+  .categories-main-page{
+    width: 100% !important;
+  }
+}
