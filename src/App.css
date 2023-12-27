@@ -1,10 +1,10 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   direction: rtl !important;
   box-sizing: border-box;
   background-color: white;
-
 }
 @font-face {
   font-family: iransans;
@@ -14,24 +14,27 @@ body, html {
   font-family: iransans;
   direction: rtl !important;
 }
-.bg-orange{
+.bg-orange {
   background-color: #ff6a00;
 }
-.text-orange{
-color: #ff6a00;
+.text-orange {
+  color: #ff6a00;
 }
-.orange-btn{
+.orange-btn {
   background-color: #ff6a00;
-  outline:inherit;
-  width:120px;
-  height:40px;
-  border-radius:20px;
-  border:1px solid #ff6a00;
+  outline: inherit;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ff6a00;
   color: antiquewhite;
 }
-.pointer{
-cursor: pointer;
+.pointer {
+  cursor: pointer;
 }
-.text-brown{
+.text-brown {
   color: #754204;
+}
+.text-dark-blue {
+  color: #111187;
 }

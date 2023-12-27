@@ -15,17 +15,17 @@ export default function ProductComponent({ product }) {
         className=" product-image w-75"
         style={{ aspectRatio: 1 / 1, objectFit: "contain" }}
       />
-      <b className="text-center p-1 p-sm-3">
-        {product.title.length < 45
+      <span className="text-center p-1 p-sm-3" style={{ fontSize: "12px" }}>
+        {product.title.length < 30
           ? product.title
-          : product.title.slice(0, 45) + "..."}
-      </b>
+          : product.title.slice(0, 30) + "..."}
+      </span>
 
       <div className="d-flex justify-content-between align-items-center w-100 px-4 ">
         {product.discounted && (
           <div className="d-flex w-100 align-items-center pb-2 justify-content-between">
             <div className=" text-left  px-1">
-              <Chip className="bg-danger text-white text-left" label="20%"  />
+              <Chip className="bg-danger text-white text-left" label="20%" />
             </div>
             <div>
               <div className="d-flex">

@@ -9,6 +9,7 @@ import "../../../css/main/mainSlider.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function MainSlider() {
+  const banners = [{ src: "./1.jpg" }, { src: "./2.jpg" }, { src: "./3.jpg" }];
   return (
     <>
       <Swiper
@@ -25,15 +26,13 @@ export default function MainSlider() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mainSwiper"
       >
-        <SwiperSlide>
-          <img className="swiper-image" src="./1.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="swiper-image" src="./2.jpg" alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="swiper-image" src="./3.jpg" alt="" />
-        </SwiperSlide>
+        {banners.map((item, index) => {
+          return (
+            <SwiperSlide key={index}>
+              <img className="swiper-image" src={item.src} alt="" />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );

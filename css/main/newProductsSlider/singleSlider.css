@@ -20,11 +20,11 @@ body {
   width: 100% !important;
   height: 400px !important;
   padding: 40px;
-  
-  .swiper-pagination-bullet-active{
-    color: #754204 !important;
-    background-color: #754204 !important;
-   }
+
+  .swiper-pagination-bullet-active {
+    color: #111187 !important;
+    background-color: #111187 !important;
+  }
 }
 
 .swiper-slide1 {
@@ -40,11 +40,10 @@ body {
   width: 80% !important;
   height: 80% !important;
 }
- @media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .swiper1 {
     width: 100% !important;
     height: 400px !important;
     padding: 10px !important;
   }
- }
- 
+}
