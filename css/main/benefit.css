@@ -14,10 +14,24 @@
   padding: 10px;
   transform: scale(1.8);
   margin-left: 10px;
+  transition:color 0.1s ease-in-out, background-color 0.1s ease-in-out ;
 }
 .selected-title {
   font-size: 22px;
   color: #754204;
+  transition:color 0.1s ease-in-out, font-size 0.1s ease-in-out ;
+
+}
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.fade-in-image{
+  animation: fade-in 1s;
 }
 .benefit-pic {
   max-width: 500px;
@@ -26,6 +40,7 @@
   height: auto;
   aspect-ratio: 1 / 1;
   margin-right: 20px;
+
 }
 @media screen and (max-width: 600px) {
   .benefit-pic {

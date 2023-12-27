@@ -1,0 +1,25 @@
+.single-product-card{
+    width: 100%;
+    background:white;
+    height: 200px !important;
+    border-radius: 12px;
+}
+.single-product-card:hover {
+    box-shadow: 5px 5px 8px #868787;
+  }
+.single-product-card-img{
+    width: 80% !important;
+    height: 80% !important;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+
+}
+@media screen and (max-width:600px) {
+    .single-product-card{
+        width: 100%;
+        background:white;
+        border-radius: 12px;
+        height: auto;
+    }
+}

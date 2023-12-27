@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import MainSlider from "./MainSlider";
 import Categories from "./Categories";
-import ProductsSlider from "./ProductsSlider";
+import ProductsSlider from "./DiscountedProducts/ProductsSlider";
+import Benefits from './Benefits'
 import axios from "axios";
 import "../../../css/main/productComponent.css";
+import NewProductsSlider from './NewProductsSlider/NewProductsSlider'
 export default function MainPage() {
   const [loading, setLoading] = useState(false);
   const [discountedProducts, setDiscountedProducts] = useState([]);
@@ -13,7 +15,7 @@ export default function MainPage() {
     try {
       if (response.status == 200) {
         response.data.map((element) => (element.discounted = false));
-        const arr = response.data.splice(11, 5);
+        const arr = response.data;
         arr.map((element) => (element.discounted = true));
         setDiscountedProducts(arr);
         setLoading(false);
@@ -31,6 +33,8 @@ export default function MainPage() {
       <MainSlider />
       <Categories />
       <ProductsSlider products={discountedProducts} />
+      <Benefits/>
+      <NewProductsSlider  products={discountedProducts}/>
     </div>
   );
 }

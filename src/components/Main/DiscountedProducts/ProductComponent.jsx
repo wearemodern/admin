@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../css/main/productComponent.css";
+import "../../../../css/main/productComponent.css";
 import Chip from "@mui/material/Chip";
 export default function ProductComponent({ product }) {
   return (
     <Link
       style={{ textDecoration: "none" }}
       to={`product/${product.id}`}
-      className="text-secondary border border-1 d-flex flex-column justify-content-center align-items-center product-card bg-white  py-2"
+      className="text-secondary d-flex flex-column justify-content-center align-items-center product-card bg-white  w-100 py-2"
     >
       <img
         src={product.image}
         alt="product image"
-        className=" product-image w-80"
+        className=" product-image w-75"
         style={{ aspectRatio: 1 / 1, objectFit: "contain" }}
       />
       <b className="text-center p-1 p-sm-3">
@@ -21,11 +21,11 @@ export default function ProductComponent({ product }) {
           : product.title.slice(0, 45) + "..."}
       </b>
 
-      <div className="d-flex justify-content-between align-items-center w-100 px-4 w-100">
+      <div className="d-flex justify-content-between align-items-center w-100 px-4 ">
         {product.discounted && (
           <div className="d-flex w-100 align-items-center pb-2 justify-content-between">
             <div className=" text-left  px-1">
-              <Chip className="bg-danger text-white text-left" label="20%" small />
+              <Chip className="bg-danger text-white text-left" label="20%"  />
             </div>
             <div>
               <div className="d-flex">

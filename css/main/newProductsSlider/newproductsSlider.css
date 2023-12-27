@@ -1,0 +1,8 @@
+.newProducts-slider {
+  min-height: 450px !important;
+  height: auto;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

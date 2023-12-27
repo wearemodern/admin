@@ -1,0 +1,50 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper1 {
+  width: 100% !important;
+  height: 400px !important;
+  padding: 40px;
+  
+  .swiper-pagination-bullet-active{
+    color: #754204 !important;
+    background-color: #754204 !important;
+   }
+}
+
+.swiper-slide1 {
+  background-position: center;
+  background-size: cover;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 12px;
+}
+
+.swiper-slide1 img {
+  display: block;
+  width: 80% !important;
+  height: 80% !important;
+}
+ @media screen and (max-width:600px) {
+  .swiper1 {
+    width: 100% !important;
+    height: 400px !important;
+    padding: 10px !important;
+  }
+ }
+ 

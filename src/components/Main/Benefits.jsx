@@ -34,7 +34,7 @@ export default function Benefits() {
   ];
   const [selected, setSelected] = useState(benefitItems[0]);
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-between w-100 h-100 benefits-page">
+    <div className="d-flex flex-column flex-md-row justify-content-between  h-100 benefits-page mx-auto" style={{width:'80%'}}>
       <div className="col-md-6">
         {benefitItems.map((item, index) => (
           <div
@@ -66,7 +66,8 @@ export default function Benefits() {
           </div>
         ))}
       </div>
-      <img src={selected.img} alt="pic" className="benefit-pic col-md-6" />
-    </div>
+<img src={selected.img} alt="pic" className="benefit-pic col-md-6 fade-in-image "  />
+  
+     </div>
   );
 }
