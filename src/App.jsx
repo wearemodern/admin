@@ -1,18 +1,12 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import SideButtons from "./components/SideButtons";
 import MainPage from "./components/Main/MainPage";
 import Header from "./components/header/Header";
 import AllCategories from "./components/header/AllCategories";
+import ScrollToTop from "./components/ScrollToTop";
 export default function App() {
-  const ScrollToTop = () => {
-    const location = useLocation();
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [location]);
-    return null;
-  };
+ 
   const theme = createTheme({
     typography: {
       fontFamily: "",
