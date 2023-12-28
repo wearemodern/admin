@@ -9,24 +9,24 @@ import "../../css/sideButtons.css";
 export default function SideButtons() {
   const buttons = [
     <Tooltip title="دریافت اپلیکیشن" placement="right-start" style={{height:'37px'}}>
-      <Button key="one" className="bg-black opacity-btn w-100 border-bottom border-white">
+      <Button key="one" className="bg-black side-btn w-100 border-bottom border-white">
         <StayPrimaryPortraitIcon />
       </Button>
     </Tooltip>,
     <Tooltip title="نمایشگاه مجازی" placement="right-start" style={{height:'37px'}}>
-      <Button key="two" className="bg-black opacity-btn w-100 border-bottom border-white border-top" >
+      <Button key="two" className="bg-black side-btn w-100 border-bottom border-white border-top" >
         VR
       </Button>
       
     </Tooltip>,
     <Tooltip title="پیام به پشتیبانی" placement="right-start" style={{height:'37px'}}>
-      <Button key="three" className="bg-black opacity-btn w-100  border-bottom border-white border-top ">
+      <Button key="three" className="bg-black side-btn w-100  border-bottom border-white border-top ">
         <QuestionAnswerOutlinedIcon />
       </Button>
       
     </Tooltip>,
     <Tooltip title="انتقال به ابتدای صفحه" placement="right-start" style={{height:'37px'}}>
-      <Button key="four" className="bg-black opacity-btn w-100 border-top border-white" onClick={()=>window.scrollTo(0,0)}>
+      <Button key="four" className="bg-black side-btn w-100 border-top border-white" onClick={()=>window.scrollTo(0,0)}>
         <TbArrowBigUpLinesFilled style={{ fontSize: "22px" }} />
       </Button>
       

@@ -1,6 +1,9 @@
 * {
   border-color: white !important;
 }
-.opacity-btn{
+.side-btn{
 opacity:0.6
+}
+.side-btn:hover{
+    opacity:1;
 }
