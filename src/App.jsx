@@ -19,9 +19,7 @@ export default function App() {
         <BrowserRouter>
           <ScrollToTop />
           <Header />
-          <div>
             <SideButtons />
-          </div>
           <Routes className="bg-white">
             <Route index element={<MainPage />} />
             <Route path="/categories" element={<AllCategories />} />

@@ -1,14 +1,17 @@
 .header {
   background: #232f3e;
+  height: auto !important;
 }
 .search-box {
   border-radius: 10px;
   height: 40px;
   border: none;
   outline: none;
-  background: white;
+background: white;
 }
-
+.MuiMenuItem-root.Mui-selected{
+  background-color: #fff!important;
+} 
 .css-13eajue-MuiButtonBase-root-MuiMenuItem-root:hover {
   background-color: #f6e5d5 !important;
   color: #ff6a00 !important;

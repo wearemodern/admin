@@ -16,7 +16,7 @@ export default function SubHeader() {
   ];
   const subHeaderItems2 = [
     { text: "در راه", link: "/" },
-    { text: "لایو", link: "/" },
+    { text: "پخش زنده", link: "/" },
   ];
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -109,7 +109,7 @@ export default function SubHeader() {
           return (
             <Link to={item.link} key={index} className="link-style p-2 d-flex">
               {item.text}
-              {item.text == "لایو" && (
+              {item.text == "پخش زنده" && (
                 <div className="live-notif mr-1 mt-1"></div>
               )}
             </Link>
