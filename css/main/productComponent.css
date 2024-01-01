@@ -39,7 +39,13 @@
   padding: 10px;
   outline: none !important;
 }
-.mySwiper {
+.popular-Swiper {
+  height: 400px;
+  background-image: linear-gradient(to bottom right, #f2ed57, #6f7173);
+  align-items: center !important;
+  display: flex !important;
+}
+.surprising-Swiper {
   height: 400px;
   background-image: linear-gradient(to bottom right, #ff6a00, #232f3e);
   align-items: center !important;

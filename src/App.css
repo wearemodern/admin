@@ -38,3 +38,6 @@ html {
 .text-dark-blue {
   color: #111187;
 }
+.fs-large{
+  font-size: 25px !important;
+}

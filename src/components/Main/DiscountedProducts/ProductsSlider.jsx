@@ -7,7 +7,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import RedeemIcon from "@mui/icons-material/Redeem";
 import ProductComponent from "./ProductComponent";
 import "../../../../css/main/productComponent.css";
-export default function ProductsSlider({ products }) {
+export default function ProductsSlider({ products,text }) {
   const [swiperRef, setSwiperRef] = useState(null);
   const [view, setView] = useState(null);
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function ProductsSlider({ products }) {
     };
   }, []);
   return (
-    <div className="d-lg-flex mySwiper align-items-center w-100 h-100 py-1 justify-content-center text-center px-3 py-3">
+    <div className={`d-lg-flex mySwiper align-items-center w-100 h-100 py-1 justify-content-center text-center px-3 py-3 ${text=='محصولات شگفت‌انگیز'?'surprising-Swiper':'popular-Swiper'}`}>
       <div className="h-100 d-flex align-items-center justify-content-center  mx-auto px-3">
         <span
           className="text-white text-center mx-auto pr-4"
@@ -39,8 +39,7 @@ export default function ProductsSlider({ products }) {
             fontWeight: "bold",
             verticalAlign: "middle",
           }}
-        >
-          پیشنهاد‌های شگفت‌انگیز
+        >{text}
           <RedeemIcon style={{ fontSize: "30px", fontWeight: "bold" }} />
         </span>
       </div>
@@ -59,7 +58,7 @@ export default function ProductsSlider({ products }) {
                 key={index}
                 className="product-card"
               >
-                <ProductComponent product={product} />
+                <ProductComponent product={product} text={text} />
               </SwiperSlide>
             );
           })}

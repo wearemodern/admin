@@ -37,7 +37,7 @@ export default function ProductComponent({ product }) {
           </div>
         )}
         {!product.discounted && (
-          <div>
+          <div className="text-left mr-auto">
             <b className="m-0">{product.price}</b>
             <span className="mr-1" style={{ fontSize: "14px" }}>
               تومان
