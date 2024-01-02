@@ -1,0 +1,17 @@
+
+.footer-page{
+    background-color: #f0efef !important;
+    height: fit-content !important;
+     /* position: fixed !important;
+    bottom: 0;  */
+}
+.footer-text:hover{
+color: #17a2b8;
+cursor: pointer;
+}
+@media screen and (max-height:600px)  {
+    .footer-page{
+        min-height: 100vh !important;
+
+    }
+}
