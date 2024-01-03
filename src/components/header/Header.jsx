@@ -10,9 +10,9 @@ import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import "../../../css/header.css";
 export default function Header() {
-  const [age, setAge] = React.useState("");
+  const [selectedCategory, setSelectedCategory] = React.useState("");
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setSelectedCategory(event.target.value);
   };
   const [searchWord, setSearchWord] = useState("");
   const [isLogin, setIsLogin] = useState(true);
@@ -43,7 +43,7 @@ export default function Header() {
         </div>
         <div className="col-11 col-sm-8 search-box d-flex align-items-center pl-0">
           <Select
-            value={age}
+            value={selectedCategory}
             onChange={handleChange}
             displayEmpty
             inputProps={{ "aria-label": "Without label" }}

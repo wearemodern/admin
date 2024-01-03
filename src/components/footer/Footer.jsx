@@ -7,7 +7,7 @@ import FooterCol4 from "./FooterCol4";
 function Footer() {
   
   return (
-    <div className="  footer-page w-100 p-5 d-flex justify-content-start align-items-start w-100 flex-column flex-sm-row footer-container col-12">
+    <div className="  footer-page w-100 p-5 d-flex justify-content-start align-items-start w-100 flex-column flex-sm-row footer-container col-12 mt-3">
      <FooterCol1/>
       <FooterCol2/>
       <FooterCol3/>
