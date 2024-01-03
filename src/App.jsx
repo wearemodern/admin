@@ -7,8 +7,9 @@ import AllCategories from "./components/header/AllCategories";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/footer/Footer";
 import Store from "./components/store/Store";
+import CategoryPage from "./components/categoryPage/CategoryPage";
+import SingleProduct from "./components/singleProduct/SingleProduct";
 export default function App() {
- 
   const theme = createTheme({
     typography: {
       fontFamily: "",
@@ -21,13 +22,15 @@ export default function App() {
         <BrowserRouter>
           <ScrollToTop />
           <Header />
-            <SideButtons />
+          <SideButtons />
           <Routes className="bg-white">
             <Route index element={<MainPage />} />
             <Route path="/categories" element={<AllCategories />} />
             <Route path="/store" element={<Store />} />
+            <Route path="/category/:enName" element={<CategoryPage />} />
+            <Route path="/product/:id" element={<SingleProduct />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </BrowserRouter>
       </ThemeProvider>
     </div>

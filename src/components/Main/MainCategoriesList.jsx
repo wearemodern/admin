@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function MainCategoriesList() {
     const categories = [
         {

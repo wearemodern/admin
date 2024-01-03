@@ -1,11 +1,10 @@
 import "../../../css/main/categories.css";
-import MainCategoriesList from "./MainCategoriesList";
-export default function Categories() {
-  const categories=MainCategoriesList()
+export default function Categories({categories}) {
+
   return (
     <div className="d-lg-flex  align-items-center categories-main-page justify-content-center mx-auto p-0 bg-white py-5">
       <div className="d-flex w-100 justify-content-center   flex-wrap align-items-center">
-        {categories.map((category, index) => {
+        {categories && categories.map((category, index) => {
           return (
             <div
               key={index}
@@ -24,7 +23,6 @@ export default function Categories() {
                   src={category.img}
                   alt="category-img"
                   className=" category-image active-category"
-                  
                 />
               </div>
               {/*category name  */}

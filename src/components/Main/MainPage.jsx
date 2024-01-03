@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import MainCategoriesList from "./MainCategoriesList";
 import MainSlider from "./MainSlider";
 import Categories from "./Categories";
 import ProductsSlider from "./DiscountedProducts/ProductsSlider";
@@ -8,6 +9,7 @@ import "../../../css/main/productComponent.css";
 import NewProductsSlider from './NewProductsSlider/NewProductsSlider'
 import Vr from "./vr";
 export default function MainPage() {
+  const categories = MainCategoriesList();
   const [loading, setLoading] = useState(false);
   const [discountedProducts, setDiscountedProducts] = useState([]);
   const [products, setProducts] = useState([]);
@@ -35,7 +37,7 @@ export default function MainPage() {
   return (
     <div className="bg-white">
       <MainSlider />
-      <Categories />
+      <Categories categories={categories} />
       <ProductsSlider products={discountedProducts} text={"محصولات شگفت‌انگیز"}/>
       <Benefits/>
       <NewProductsSlider  products={discountedProducts}/>
