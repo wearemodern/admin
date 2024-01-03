@@ -5,6 +5,8 @@ import MainPage from "./components/Main/MainPage";
 import Header from "./components/header/Header";
 import AllCategories from "./components/header/AllCategories";
 import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/footer/Footer";
+import Store from "./components/store/Store";
 export default function App() {
  
   const theme = createTheme({
@@ -23,7 +25,9 @@ export default function App() {
           <Routes className="bg-white">
             <Route index element={<MainPage />} />
             <Route path="/categories" element={<AllCategories />} />
+            <Route path="/store" element={<Store />} />
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </ThemeProvider>
     </div>

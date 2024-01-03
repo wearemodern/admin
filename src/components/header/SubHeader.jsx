@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 export default function SubHeader() {
   const subHeaderItems1 = [
-    { text: "دسته‌بندی‌ها", link: "/" },
-    { text: "فروشگاه", link: "/" },
+    { text: "دسته‌بندی‌ها", link: "/categories" },
+    { text: "فروشگاه", link: "/store" },
     { text: "دی‌گرام", link: "/" },
     { text: "درباره ما", link: "/" },
     { text: "ارتباط با ما", link: "/" },
@@ -36,15 +36,12 @@ export default function SubHeader() {
         {subHeaderItems1.map((item, index) => {
           return (
             <div className="text-white p-2 pointer" key={index}>
-              {item.text != "راهنما" && item.text !='دسته‌بندی‌ها' && (
+              {item.text != "راهنما" && (
                 <Link className="link-style" to={item.link}>
                   {item.text}
                 </Link>
               )}
-              {item.text == "دسته‌بندی‌ها" && <Link to="./categories" className="link-style"><span >
-                دسته‌بندی‌ها
-                </span></Link>
-              }
+             
               {item.text == "راهنما" && (
                 <>
                   <span onMouseEnter={handleClick} className="link-style">

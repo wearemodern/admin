@@ -21,7 +21,6 @@ export default function MainPage() {
         const arr = response.data;
         arr.map((element) => (element.discounted = true));
         setProducts(products1)
-        console.log(products1)
         setDiscountedProducts(arr);
         setLoading(false);
       }
