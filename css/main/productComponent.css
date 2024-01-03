@@ -1,5 +1,5 @@
 .product-card {
-  height: 280px !important;
+  height: 400px !important;
   border-radius: 12px;
 }
 .product-card:hover {
@@ -11,9 +11,11 @@
   height: 60% !important;
   padding: 20px !important;
   text-align: center !important;
-  vertical-align: middle !important;
+  vertical-align:top !important;
   background-size: cover !important;
   background-position: center !important;
+  display: flex;
+  align-items:start !important;
 }
 
 .input-style {
@@ -41,7 +43,7 @@
 }
 .popular-Swiper {
   height: 400px;
-  background-image: linear-gradient(to bottom right, #f2ed57, #6f7173);
+  background-image: linear-gradient(to bottom right, #fadfdf,brown);
   align-items: center !important;
   display: flex !important;
 }

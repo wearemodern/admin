@@ -41,3 +41,7 @@ html {
 .fs-large{
   font-size: 25px !important;
 }
+.link-style{
+text-decoration: none;
+
+}
