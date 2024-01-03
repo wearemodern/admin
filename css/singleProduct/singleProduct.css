@@ -1,0 +1,22 @@
+.productDetails-box {
+  width: 100%;
+  border: 1px solid #afadad;
+  border-radius: 12px;
+  display: flex !important;
+}
+.breadcrumb-text {
+  color: #afadad;
+}
+.breadcrumb-text:hover {
+  color: #ff6a00;
+  font-weight: 600;
+}
+.css-1n9pji-MuiTypography-root-MuiBreadcrumbs-root {
+  color: #ff6a00 !important;
+}
+.productDetails-mainPic {
+    width: 100% !important;
+    height: 400px;
+    background-position:center;
+    background-size: cover;
+}
