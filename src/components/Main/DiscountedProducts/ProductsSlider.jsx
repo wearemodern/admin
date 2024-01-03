@@ -58,7 +58,7 @@ export default function ProductsSlider({ products,text }) {
                 key={index}
                 className="product-card"
               >
-                <ProductComponent product={product} text={text} />
+                <ProductComponent product={product} isStore={false} />
               </SwiperSlide>
             );
           })}
